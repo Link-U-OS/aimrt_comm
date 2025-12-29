@@ -9,7 +9,7 @@ protobuf_utils(
         ":temp_proto",
         "//aimdk/protocol/common:header_proto",
     ],
-    proto = "@aima_protocol//aimdk/protocol/hal/temp:hal_temp_channel.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/hal/temp:hal_temp_channel.proto",
     type_support_name = "aimdk_protocol_hal_temp_channel",
 )
 
@@ -18,7 +18,7 @@ protobuf_utils(
     dep_protos = [
         "//aimdk/protocol/common:rpc_proto",
     ],
-    proto = "@aima_protocol//aimdk/protocol/hal/temp:temp.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/hal/temp:temp.proto",
     type_support_name = "aimdk_protocol_temp",
 )
 
@@ -29,15 +29,15 @@ protobuf_utils(
         "//aimdk/protocol/common:rpc_proto",
     ],
     is_rpc = True,
-    proto = "@aima_protocol//aimdk/protocol/hal/temp:hal_temp_service.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/hal/temp:hal_temp_service.proto",
 )
 
 ros_utils(
     name = "temp_msgs_utils",
     interface_name = "temp_msgs",
     msgs = [
-        "@aima_protocol//aimdk/protocol/hal/temp/msg:Temp.msg",
-        "@aima_protocol//aimdk/protocol/hal/temp/msg:TempState.msg",
+        "@aimrt_protocol//aimdk/protocol/hal/temp/msg:Temp.msg",
+        "@aimrt_protocol//aimdk/protocol/hal/temp/msg:TempState.msg",
     ],
     type_support_name = "aimdk_protocol_temp_msgs",
     deps = [

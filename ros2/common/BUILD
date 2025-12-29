@@ -6,7 +6,7 @@ ros_utils(
     name = "qrcode_utils",
     interface_name = "common_msgs",
     msgs = [
-        "@aima_protocol//ros2/common:QRCode.msg",
+        "@aimrt_protocol//ros2/common:QRCode.msg",
     ],
     type_support_name = "ros2_common",
     deps = [

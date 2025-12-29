@@ -8,7 +8,7 @@ protobuf_utils(
         "//aimdk/protocol/common:header_proto",
         "//aimdk/protocol/common:timestamp_proto",
     ],
-    proto = "@aima_protocol//aimdk/protocol/mc/remote:aim_master.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/mc/remote:aim_master.proto",
     type_support_name = "aimdk_protocol_aim_master",
 )
 
@@ -21,7 +21,7 @@ protobuf_utils(
         ":universal_gamepad_proto",
         "//aimdk/protocol/common:header_proto",
     ],
-    proto = "@aima_protocol//aimdk/protocol/mc/remote:mc_remote_channel.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/mc/remote:mc_remote_channel.proto",
     type_support_name = "aimdk_protocol_mc_remote_channel",
 )
 
@@ -30,7 +30,7 @@ protobuf_utils(
     dep_protos = [
         "//aimdk/protocol/common:se3_pose_proto",
     ],
-    proto = "@aima_protocol//aimdk/protocol/mc/remote:quest_pro_controller.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/mc/remote:quest_pro_controller.proto",
     type_support_name = "aimdk_protocol_quest_pro_controller",
 )
 
@@ -39,7 +39,7 @@ protobuf_utils(
     dep_protos = [
         "//aimdk/protocol/common:header_proto",
     ],
-    proto = "@aima_protocol//aimdk/protocol/mc/remote:remote_command.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/mc/remote:remote_command.proto",
     type_support_name = "aimdk_protocol_remote_command",
 )
 
@@ -47,7 +47,7 @@ protobuf_utils(
     name = "universal_gamepad_utils",
     dep_protos = [
     ],
-    proto = "@aima_protocol//aimdk/protocol/mc/remote:universal_gamepad.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/mc/remote:universal_gamepad.proto",
     type_support_name = "aimdk_protocol_universal_gamepad",
 )
 
@@ -59,5 +59,5 @@ protobuf_utils(
         "//aimdk/protocol/common:rpc_proto",
     ],
     is_rpc = True,
-    proto = "@aima_protocol//aimdk/protocol/mc/remote:mc_remote_service.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/mc/remote:mc_remote_service.proto",
 )

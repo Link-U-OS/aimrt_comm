@@ -7,6 +7,6 @@ protobuf_utils(
     dep_protos = [
         "//aimdk/protocol/common:header_proto",
     ],
-    proto = "@aima_protocol//aimdk/protocol/em:api.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/em:api.proto",
     is_rpc = True,
 )

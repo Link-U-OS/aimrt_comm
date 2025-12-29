@@ -4,7 +4,7 @@ package(default_visibility = ["//visibility:public"])
 
 copy_file(
     name = "any_proto_copy",
-    src = "@aima_protocol//google/protobuf:any.proto",
+    src = "@aimrt_protocol//google/protobuf:any.proto",
     out = "any.proto",
 )
 

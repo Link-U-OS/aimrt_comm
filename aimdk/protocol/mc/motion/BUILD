@@ -7,7 +7,7 @@ protobuf_utils(
     dep_protos = [
         "//aimdk/protocol/common:header_proto",
     ],
-    proto = "@aima_protocol//aimdk/protocol/mc/motion:locomotion.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/mc/motion:locomotion.proto",
     type_support_name = "aimdk_protocol_locomotion",
 )
 
@@ -20,7 +20,7 @@ protobuf_utils(
         "//aimdk/protocol/mc/common:planning_proto",
         "//aimdk/protocol/mc/motion:motion_param_proto",
     ],
-    proto = "@aima_protocol//aimdk/protocol/mc/motion:mc_adjust.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/mc/motion:mc_adjust.proto",
     type_support_name = "aimdk_protocol_mc_adjust",
 )
 
@@ -32,7 +32,7 @@ protobuf_utils(
         "//aimdk/protocol/common:header_proto",
         "//aimdk/protocol/hal/hand:hand_proto",
     ],
-    proto = "@aima_protocol//aimdk/protocol/mc/motion:mc_motion_channel.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/mc/motion:mc_motion_channel.proto",
     type_support_name = "aimdk_protocol_mc_motion_channel",
 )
 
@@ -42,7 +42,7 @@ protobuf_utils(
         "//aimdk/protocol/common:se3_velocity_proto",
         "//aimdk/protocol/common:se3_acceleration_proto",
     ],
-    proto = "@aima_protocol//aimdk/protocol/mc/motion:motion_param.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/mc/motion:motion_param.proto",
     type_support_name = "aimdk_protocol_motion_param",
 )
 
@@ -57,7 +57,7 @@ protobuf_utils(
         "//aimdk/protocol/mc/common:move_pose_mode_proto",
         "//aimdk/protocol/mc/common:planning_proto",
     ],
-    proto = "@aima_protocol//aimdk/protocol/mc/motion:move.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/mc/motion:move.proto",
     type_support_name = "aimdk_protocol_move",
 )
 
@@ -70,7 +70,7 @@ protobuf_utils(
         "//aimdk/protocol/mc/common:planning_proto",
         "//aimdk/protocol/mc/data:joint_proto",
     ],
-    proto = "@aima_protocol//aimdk/protocol/mc/motion:movj.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/mc/motion:movj.proto",
     type_support_name = "aimdk_protocol_movj",
 )
 
@@ -85,7 +85,7 @@ protobuf_utils(
         "//aimdk/protocol/mc/common:planning_proto",
         "//aimdk/protocol/hal/hand:hand_proto",
     ],
-    proto = "@aima_protocol//aimdk/protocol/mc/motion:planning.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/mc/motion:planning.proto",
     type_support_name = "aimdk_protocol_mc_motion_planning",
 )
 
@@ -94,7 +94,7 @@ protobuf_utils(
     dep_protos = [
         "//aimdk/protocol/common:header_proto",
     ],
-    proto = "@aima_protocol//aimdk/protocol/mc/motion:stand.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/mc/motion:stand.proto",
     type_support_name = "aimdk_protocol_mc_motion_stand",
 )
 
@@ -107,7 +107,7 @@ protobuf_utils(
         "//aimdk/protocol/mc/common:planning_proto",
         "//aimdk/protocol/mc/motion:motion_param_proto",
     ],
-    proto = "@aima_protocol//aimdk/protocol/mc/motion:waist.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/mc/motion:waist.proto",
     type_support_name = "aimdk_protocol_mc_motion_waist",
 )
 
@@ -116,7 +116,7 @@ protobuf_utils(
     dep_protos = [
         "//aimdk/protocol/common:header_proto",
     ],
-    proto = "@aima_protocol//aimdk/protocol/mc/motion:collision.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/mc/motion:collision.proto",
     type_support_name = "aimdk_protocol_mc_motion_collision",
 )
 
@@ -125,7 +125,7 @@ protobuf_utils(
     dep_protos = [
         "//aimdk/protocol/common:header_proto",
     ],
-    proto = "@aima_protocol//aimdk/protocol/mc/motion:state_notify.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/mc/motion:state_notify.proto",
     type_support_name = "aimdk_protocol_mc_motion_state_notify",
 )
 
@@ -145,5 +145,5 @@ protobuf_utils(
         "//aimdk/protocol/hal/neck:neck_proto",
     ],
     is_rpc = True,
-    proto = "@aima_protocol//aimdk/protocol/mc/motion:mc_motion_service.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/mc/motion:mc_motion_service.proto",
 )

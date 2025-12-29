@@ -6,11 +6,11 @@ ros_utils(
     name = "pose_msgs_utils",
     interface_name = "pose_msgs",
     msgs = [
-        "@aima_protocol//aimdk/protocol/hal/pose/msg:PoseCommand.msg",
-        "@aima_protocol//aimdk/protocol/hal/pose/msg:PoseState.msg",
-        "@aima_protocol//aimdk/protocol/hal/pose/msg:PoseCommands.msg",
-        "@aima_protocol//aimdk/protocol/hal/pose/msg:PoseStates.msg",
-        "@aima_protocol//aimdk/protocol/hal/pose/msg:TorqSensorState.msg",
+        "@aimrt_protocol//aimdk/protocol/hal/pose/msg:PoseCommand.msg",
+        "@aimrt_protocol//aimdk/protocol/hal/pose/msg:PoseState.msg",
+        "@aimrt_protocol//aimdk/protocol/hal/pose/msg:PoseCommands.msg",
+        "@aimrt_protocol//aimdk/protocol/hal/pose/msg:PoseStates.msg",
+        "@aimrt_protocol//aimdk/protocol/hal/pose/msg:TorqSensorState.msg",
     ],
     type_support_name = "aimdk_protocol_pose_msgs",
     deps = [

@@ -8,7 +8,7 @@ protobuf_utils(
         "//aimdk/protocol/common:rpc_proto",
     ],
     type_support_name = "aimdk_protocol_emergency_state",
-    proto = "@aima_protocol//aimdk/protocol/hal/state:emergency_state.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/hal/state:emergency_state.proto",
 )
 
 protobuf_utils(
@@ -18,7 +18,7 @@ protobuf_utils(
         "//aimdk/protocol/common:header_proto",
     ],
     type_support_name = "aimdk_protocol_hal_state_channel",
-    proto = "@aima_protocol//aimdk/protocol/hal/state:hal_state_channel.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/hal/state:hal_state_channel.proto",
 )
 
 protobuf_utils(
@@ -27,7 +27,7 @@ protobuf_utils(
         "//aimdk/protocol/common:rpc_proto",
     ],
     type_support_name = "aimdk_protocol_operation_mode",
-    proto = "@aima_protocol//aimdk/protocol/hal/state:operation_mode.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/hal/state:operation_mode.proto",
 )
 
 protobuf_utils(
@@ -37,7 +37,7 @@ protobuf_utils(
         "//aimdk/protocol/common:rpc_proto",
     ],
     is_rpc = True,
-    proto = "@aima_protocol//aimdk/protocol/hal/state:hal_emergency_service.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/hal/state:hal_emergency_service.proto",
 )
 
 protobuf_utils(
@@ -47,7 +47,7 @@ protobuf_utils(
         "//aimdk/protocol/common:rpc_proto",
     ],
     is_rpc = True,
-    proto = "@aima_protocol//aimdk/protocol/hal/state:hal_operation_mode_service.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/hal/state:hal_operation_mode_service.proto",
 )
 
 protobuf_utils(
@@ -56,5 +56,5 @@ protobuf_utils(
         "//aimdk/protocol/common:header_proto",
     ],
     type_support_name = "aimdk_protocol_mcu_state",
-    proto = "@aima_protocol//aimdk/protocol/hal/state:mcu_state.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/hal/state:mcu_state.proto",
 )

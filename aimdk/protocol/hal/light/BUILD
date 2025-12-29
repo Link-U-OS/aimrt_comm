@@ -9,7 +9,7 @@ protobuf_utils(
         "//aimdk/protocol/hal/light:light_proto",
     ],
     type_support_name = "aimdk_protocol_hal_light_channel",
-    proto = "@aima_protocol//aimdk/protocol/hal/light:hal_light_channel.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/hal/light:hal_light_channel.proto",
 )
 
 protobuf_utils(
@@ -18,7 +18,7 @@ protobuf_utils(
         "//aimdk/protocol/common:rpc_proto",
     ],
     type_support_name = "aimdk_protocol_light",
-    proto = "@aima_protocol//aimdk/protocol/hal/light:light.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/hal/light:light.proto",
 )
 
 protobuf_utils(
@@ -28,5 +28,5 @@ protobuf_utils(
         "//aimdk/protocol/common:rpc_proto",
     ],
     is_rpc = True,
-    proto = "@aima_protocol//aimdk/protocol/hal/light:hal_light_service.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/hal/light:hal_light_service.proto",
 )

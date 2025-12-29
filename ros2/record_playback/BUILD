@@ -6,10 +6,10 @@ ros_utils(
     name = "record_playback_msg_utils",
     interface_name = "record_playback_msgs",
     msgs = [
-        "@aima_protocol//ros2/record_playback/msg:RecordUpload.msg",
-        "@aima_protocol//ros2/record_playback/msg:ActionInfo.msg",
-        "@aima_protocol//ros2/record_playback/msg:BagInfo.msg",
-        "@aima_protocol//ros2/record_playback/msg:TopicMeta.msg",
+        "@aimrt_protocol//ros2/record_playback/msg:RecordUpload.msg",
+        "@aimrt_protocol//ros2/record_playback/msg:ActionInfo.msg",
+        "@aimrt_protocol//ros2/record_playback/msg:BagInfo.msg",
+        "@aimrt_protocol//ros2/record_playback/msg:TopicMeta.msg",
     ],
     type_support_name = "ros2_record_playback_msgs",
     deps = [

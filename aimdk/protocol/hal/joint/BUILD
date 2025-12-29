@@ -9,7 +9,7 @@ protobuf_utils(
         "//aimdk/protocol/common:header_proto",
         "//aimdk/protocol/common:joint_proto",
     ],
-    proto = "@aima_protocol//aimdk/protocol/hal/joint:joint_channel.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/hal/joint:joint_channel.proto",
     type_support_name = "aimdk_protocol_joint_channel",
 )
 
@@ -17,10 +17,10 @@ ros_utils(
     name = "joint_msg_utils",
     interface_name = "joint_msgs",
     msgs = [
-        "@aima_protocol//aimdk/protocol/hal/joint/msg:Command.msg",
-        "@aima_protocol//aimdk/protocol/hal/joint/msg:JointCommand.msg",
-        "@aima_protocol//aimdk/protocol/hal/joint/msg:JointState.msg",
-        "@aima_protocol//aimdk/protocol/hal/joint/msg:State.msg",
+        "@aimrt_protocol//aimdk/protocol/hal/joint/msg:Command.msg",
+        "@aimrt_protocol//aimdk/protocol/hal/joint/msg:JointCommand.msg",
+        "@aimrt_protocol//aimdk/protocol/hal/joint/msg:JointState.msg",
+        "@aimrt_protocol//aimdk/protocol/hal/joint/msg:State.msg",
     ],
     type_support_name = "aimdk_protocol_joint_msgs",
     deps = [

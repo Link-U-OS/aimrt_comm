@@ -8,7 +8,7 @@ protobuf_utils(
         "//aimdk/protocol/common:header_proto",
         "//aimdk/protocol/mc/common:arm_proto",
     ],
-    proto = "@aima_protocol//aimdk/protocol/mc/data:arm.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/mc/data:arm.proto",
     type_support_name = "aimdk_protocol_mc_data_arm",
 )
 
@@ -18,7 +18,7 @@ protobuf_utils(
         "//aimdk/protocol/common:header_proto",
         "//aimdk/protocol/common:joint_proto",
     ],
-    proto = "@aima_protocol//aimdk/protocol/mc/data:joint.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/mc/data:joint.proto",
     type_support_name = "aimdk_protocol_mc_joint",
 )
 
@@ -27,7 +27,7 @@ protobuf_utils(
     dep_protos = [
         "//aimdk/protocol/common:header_proto",
     ],
-    proto = "@aima_protocol//aimdk/protocol/mc/data:mgpt.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/mc/data:mgpt.proto",
     type_support_name = "aimdk_protocol_mc_mgpt",
 )
 
@@ -37,7 +37,7 @@ protobuf_utils(
         "//aimdk/protocol/common:header_proto",
         "//aimdk/protocol/mc/common:planning_proto",
     ],
-    proto = "@aima_protocol//aimdk/protocol/mc/data:planning.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/mc/data:planning.proto",
     type_support_name = "aimdk_protocol_mc_planning",
 )
 
@@ -47,7 +47,7 @@ protobuf_utils(
         "//aimdk/protocol/common:header_proto",
         "//aimdk/protocol/common:se3_pose_proto",
     ],
-    proto = "@aima_protocol//aimdk/protocol/mc/data:tcp.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/mc/data:tcp.proto",
     type_support_name = "aimdk_protocol_mc_tcp",
 )
 
@@ -63,5 +63,5 @@ protobuf_utils(
         "//aimdk/protocol/hal/neck:neck_proto",
     ],
     is_rpc = True,
-    proto = "@aima_protocol//aimdk/protocol/mc/data:mc_data_service.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/mc/data:mc_data_service.proto",
 )

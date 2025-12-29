@@ -7,7 +7,7 @@ protobuf_utils(
     dep_protos = [
     ],
     type_support_name = "aimdk_protocol_box",
-    proto = "@aima_protocol//aimdk/protocol/common:box.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/common:box.proto",
 )
 
 protobuf_utils(
@@ -15,7 +15,7 @@ protobuf_utils(
     dep_protos = [
     ],
     type_support_name = "aimdk_protocol_control_source",
-    proto = "@aima_protocol//aimdk/protocol/common:control_source.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/common:control_source.proto",
 )
 
 protobuf_utils(
@@ -25,7 +25,7 @@ protobuf_utils(
         ":timestamp_proto",
     ],
     type_support_name = "aimdk_protocol_header",
-    proto = "@aima_protocol//aimdk/protocol/common:header.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/common:header.proto",
 )
 
 protobuf_utils(
@@ -34,7 +34,7 @@ protobuf_utils(
         ":timestamp_proto",
     ],
     type_support_name = "aimdk_protocol_image",
-    proto = "@aima_protocol//aimdk/protocol/common:image.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/common:image.proto",
 )
 
 protobuf_utils(
@@ -43,7 +43,7 @@ protobuf_utils(
         ":timestamp_proto",
     ],
     type_support_name = "aimdk_protocol_io_packet",
-    proto = "@aima_protocol//aimdk/protocol/common:io_packet.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/common:io_packet.proto",
 )
 
 protobuf_utils(
@@ -51,7 +51,7 @@ protobuf_utils(
     dep_protos = [
     ],
     type_support_name = "aimdk_protocol_joint",
-    proto = "@aima_protocol//aimdk/protocol/common:joint.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/common:joint.proto",
 )
 
 protobuf_utils(
@@ -61,7 +61,7 @@ protobuf_utils(
         ":vec3_proto",
     ],
     type_support_name = "aimdk_protocol_mocapjointstate",
-    proto = "@aima_protocol//aimdk/protocol/common:mocapjointstate.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/common:mocapjointstate.proto",
 )
 
 protobuf_utils(
@@ -72,7 +72,7 @@ protobuf_utils(
         ":twist_proto",
     ],
     type_support_name = "aimdk_protocol_odometry",
-    proto = "@aima_protocol//aimdk/protocol/common:odometry.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/common:odometry.proto",
 )
 
 protobuf_utils(
@@ -80,7 +80,7 @@ protobuf_utils(
     dep_protos = [
     ],
     type_support_name = "aimdk_protocol_pixel_pose",
-    proto = "@aima_protocol//aimdk/protocol/common:pixel_pose.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/common:pixel_pose.proto",
 )
 
 protobuf_utils(
@@ -89,7 +89,7 @@ protobuf_utils(
         ":se3_pose_proto",
     ],
     type_support_name = "aimdk_protocol_qr_pose",
-    proto = "@aima_protocol//aimdk/protocol/common:qr_pose.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/common:qr_pose.proto",
 )
 
 protobuf_utils(
@@ -97,7 +97,7 @@ protobuf_utils(
     dep_protos = [
     ],
     type_support_name = "aimdk_protocol_quaternion",
-    proto = "@aima_protocol//aimdk/protocol/common:quaternion.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/common:quaternion.proto",
 )
 
 protobuf_utils(
@@ -107,7 +107,7 @@ protobuf_utils(
         ":timestamp_proto",
     ],
     type_support_name = "aimdk_protocol_rpc",
-    proto = "@aima_protocol//aimdk/protocol/common:rpc.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/common:rpc.proto",
 )
 
 protobuf_utils(
@@ -115,7 +115,7 @@ protobuf_utils(
     dep_protos = [
     ],
     type_support_name = "aimdk_protocol_rpy",
-    proto = "@aima_protocol//aimdk/protocol/common:rpy.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/common:rpy.proto",
 )
 
 protobuf_utils(
@@ -123,7 +123,7 @@ protobuf_utils(
     dep_protos = [
     ],
     type_support_name = "aimdk_protocol_scalar_trajectory",
-    proto = "@aima_protocol//aimdk/protocol/common:scalar_trajectory.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/common:scalar_trajectory.proto",
 )
 
 protobuf_utils(
@@ -132,7 +132,7 @@ protobuf_utils(
         ":vec2_proto",
     ],
     type_support_name = "aimdk_protocol_se2_acceleration",
-    proto = "@aima_protocol//aimdk/protocol/common:se2_acceleration.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/common:se2_acceleration.proto",
 )
 
 protobuf_utils(
@@ -141,7 +141,7 @@ protobuf_utils(
         ":vec2_proto",
     ],
     type_support_name = "aimdk_protocol_se2_pose",
-    proto = "@aima_protocol//aimdk/protocol/common:se2_pose.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/common:se2_pose.proto",
 )
 
 protobuf_utils(
@@ -150,7 +150,7 @@ protobuf_utils(
         ":vec2_proto",
     ],
     type_support_name = "aimdk_protocol_se2_velocity",
-    proto = "@aima_protocol//aimdk/protocol/common:se2_velocity.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/common:se2_velocity.proto",
 )
 
 protobuf_utils(
@@ -160,7 +160,7 @@ protobuf_utils(
         ":vec3_proto",
     ],
     type_support_name = "aimdk_protocol_se3_acceleration",
-    proto = "@aima_protocol//aimdk/protocol/common:se3_acceleration.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/common:se3_acceleration.proto",
 )
 
 protobuf_utils(
@@ -171,7 +171,7 @@ protobuf_utils(
         ":vec3_proto",
     ],
     type_support_name = "aimdk_protocol_se3_pose",
-    proto = "@aima_protocol//aimdk/protocol/common:se3_pose.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/common:se3_pose.proto",
 )
 
 protobuf_utils(
@@ -183,7 +183,7 @@ protobuf_utils(
         ":timestamp_proto",
     ],
     type_support_name = "aimdk_protocol_se3_trajectory",
-    proto = "@aima_protocol//aimdk/protocol/common:se3_trajectory.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/common:se3_trajectory.proto",
 )
 
 protobuf_utils(
@@ -192,7 +192,7 @@ protobuf_utils(
         ":vec3_proto",
     ],
     type_support_name = "aimdk_protocol_se3_velocity",
-    proto = "@aima_protocol//aimdk/protocol/common:se3_velocity.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/common:se3_velocity.proto",
 )
 
 protobuf_utils(
@@ -200,7 +200,7 @@ protobuf_utils(
     dep_protos = [
     ],
     type_support_name = "aimdk_protocol_timestamp",
-    proto = "@aima_protocol//aimdk/protocol/common:timestamp.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/common:timestamp.proto",
 )
 
 protobuf_utils(
@@ -210,7 +210,7 @@ protobuf_utils(
         ":vec3_proto",
     ],
     type_support_name = "aimdk_protocol_twist",
-    proto = "@aima_protocol//aimdk/protocol/common:twist.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/common:twist.proto",
 )
 
 protobuf_utils(
@@ -218,7 +218,7 @@ protobuf_utils(
     dep_protos = [
     ],
     type_support_name = "aimdk_protocol_vec2",
-    proto = "@aima_protocol//aimdk/protocol/common:vec2.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/common:vec2.proto",
 )
 
 protobuf_utils(
@@ -226,7 +226,7 @@ protobuf_utils(
     dep_protos = [
     ],
     type_support_name = "aimdk_protocol_vec3",
-    proto = "@aima_protocol//aimdk/protocol/common:vec3.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/common:vec3.proto",
 )
 
 protobuf_utils(
@@ -236,7 +236,7 @@ protobuf_utils(
         ":vec3_proto",
     ],
     type_support_name = "aimdk_protocol_wrench",
-    proto = "@aima_protocol//aimdk/protocol/common:wrench.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/common:wrench.proto",
 )
 
 
@@ -271,5 +271,5 @@ protobuf_utils(
         ":wrench_proto",
     ],
     type_support_name = "aimdk_protocol_common",
-    proto = "@aima_protocol//aimdk/protocol/common:common.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/common:common.proto",
 )

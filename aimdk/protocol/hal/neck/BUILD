@@ -10,7 +10,7 @@ protobuf_utils(
         "//aimdk/protocol/common:rpc_proto",
     ],
     type_support_name = "aimdk_protocol_neck",
-    proto = "@aima_protocol//aimdk/protocol/hal/neck:neck.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/hal/neck:neck.proto",
 )
 
 protobuf_utils(
@@ -20,5 +20,5 @@ protobuf_utils(
         "//aimdk/protocol/hal/neck:neck_proto",
     ],
     is_rpc = True,
-    proto = "@aima_protocol//aimdk/protocol/hal/neck:hal_neck_service.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/hal/neck:hal_neck_service.proto",
 )

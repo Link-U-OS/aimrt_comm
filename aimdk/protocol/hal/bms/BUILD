@@ -8,7 +8,7 @@ protobuf_utils(
         "//aimdk/protocol/common:rpc_proto",
     ],
     type_support_name = "aimdk_protocol_bms",
-    proto = "@aima_protocol//aimdk/protocol/hal/bms:bms.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/hal/bms:bms.proto",
 )
 
 protobuf_utils(
@@ -18,7 +18,7 @@ protobuf_utils(
         "//aimdk/protocol/common:header_proto",
     ],
     type_support_name = "aimdk_protocol_hal_bms_channel",
-    proto = "@aima_protocol//aimdk/protocol/hal/bms:hal_bms_channel.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/hal/bms:hal_bms_channel.proto",
 )
 
 protobuf_utils(
@@ -28,5 +28,5 @@ protobuf_utils(
         "//aimdk/protocol/common:rpc_proto",
     ],
     is_rpc = True,
-    proto = "@aima_protocol//aimdk/protocol/hal/bms:hal_bms_service.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/hal/bms:hal_bms_service.proto",
 )

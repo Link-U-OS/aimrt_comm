@@ -10,5 +10,5 @@ protobuf_utils(
         "//aimdk/protocol/hds/process:process_heartbeat_proto",
     ],
     is_rpc = True,
-    proto = "@aima_protocol//aimdk/protocol/hds/monitor:monitor_service.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/hds/monitor:monitor_service.proto",
 )

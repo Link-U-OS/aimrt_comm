@@ -8,7 +8,7 @@ protobuf_utils(
         "//aimdk/protocol/common:rpc_proto",
         "//aimdk/protocol/mc/motion:planning_proto",
     ],
-    proto = "@aima_protocol//aimdk/protocol/mc/test:test.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/mc/test:test.proto",
     type_support_name = "aimdk_protocol_mc_test",
 )
 
@@ -18,5 +18,5 @@ protobuf_utils(
         ":test_proto",
     ],
     is_rpc = True,
-    proto = "@aima_protocol//aimdk/protocol/mc/test:mc_test_service.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/mc/test:mc_test_service.proto",
 )

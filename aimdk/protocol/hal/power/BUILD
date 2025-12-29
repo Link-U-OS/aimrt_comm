@@ -7,7 +7,7 @@ ros_utils(
     name = "power_msgs_utils",
     interface_name = "power_msgs",
     msgs = [
-        "@aima_protocol//aimdk/protocol/hal/power/msg:PowerState.msg",
+        "@aimrt_protocol//aimdk/protocol/hal/power/msg:PowerState.msg",
     ],
     type_support_name = "aimdk_protocol_power_msgs",
     deps = [
@@ -22,5 +22,5 @@ protobuf_utils(
         "//aimdk/protocol/common:rpc_proto",
     ],
     is_rpc = True,
-    proto = "@aima_protocol//aimdk/protocol/hal/power:hal_power_service.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/hal/power:hal_power_service.proto",
 )

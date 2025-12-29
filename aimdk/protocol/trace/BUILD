@@ -8,6 +8,6 @@ protobuf_utils(
         "//aimdk/protocol/common:header_proto",
         "//aimdk/protocol/common:timestamp_proto",
     ],
-    proto = "@aima_protocol//aimdk/protocol/trace:event_channel.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/trace:event_channel.proto",
     type_support_name = "aimdk_protocol_event_channel",
 )

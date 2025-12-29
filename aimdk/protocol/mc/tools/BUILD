@@ -9,7 +9,7 @@ protobuf_utils(
         "//aimdk/protocol/common:se3_pose_proto",
         "//aimdk/protocol/common:vec3_proto",
     ],
-    proto = "@aima_protocol//aimdk/protocol/mc/tools:mc_tools_cfg.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/mc/tools:mc_tools_cfg.proto",
     type_support_name = "aimdk_protocol_mc_tools_cfg",
 )
 
@@ -20,5 +20,5 @@ protobuf_utils(
         "//aimdk/protocol/common:rpc_proto",
     ],
     is_rpc = True,
-    proto = "@aima_protocol//aimdk/protocol/mc/tools:mc_tools_service.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/mc/tools:mc_tools_service.proto",
 )

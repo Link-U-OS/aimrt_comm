@@ -9,7 +9,7 @@ protobuf_utils(
         "//aimdk/protocol/common:header_proto",
     ],
     is_rpc = True,
-    proto = "@aima_protocol//aimdk/protocol/hal/sensors:cameras_intrinsic.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/hal/sensors:cameras_intrinsic.proto",
 )
 
 protobuf_utils(
@@ -19,7 +19,7 @@ protobuf_utils(
         "//aimdk/protocol/common:timestamp_proto",
     ],
     is_rpc = True,
-    proto = "@aima_protocol//aimdk/protocol/hal/sensors:cameras_snapshot.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/hal/sensors:cameras_snapshot.proto",
 )
 
 protobuf_utils(
@@ -28,7 +28,7 @@ protobuf_utils(
         ":cameras_intrinsic_proto",
     ],
     is_rpc = True,
-    proto = "@aima_protocol//aimdk/protocol/hal/sensors:rs2_camera.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/hal/sensors:rs2_camera.proto",
 )
 
 protobuf_utils(
@@ -38,7 +38,7 @@ protobuf_utils(
         "//aimdk/protocol/common:image_proto",
     ],
     is_rpc = True,
-    proto = "@aima_protocol//aimdk/protocol/hal/sensors:image_channel.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/hal/sensors:image_channel.proto",
     rpc_need_type_support = True,
     type_support_name = "aimdk_protocol_image_channel",
 )
@@ -50,7 +50,7 @@ protobuf_utils(
         "//aimdk/protocol/common:image_proto",
     ],
     is_rpc = True,
-    proto = "@aima_protocol//aimdk/protocol/hal/sensors:color_depth_image_channel.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/hal/sensors:color_depth_image_channel.proto",
     rpc_need_type_support = True,
     type_support_name = "aimdk_protocol_color_depth_image_channel",
 )
@@ -59,12 +59,12 @@ ros_utils(
     name = "sensors_msg_utils",
     interface_name = "sensors_msgs",
     msgs = [
-        "@aima_protocol//aimdk/protocol/hal/sensors/msg:FootSensor.msg",
-        "@aima_protocol//aimdk/protocol/hal/sensors/msg:FootSensorState.msg",
-        "@aima_protocol//aimdk/protocol/hal/sensors/msg:ForceSensor.msg",
-        "@aima_protocol//aimdk/protocol/hal/sensors/msg:ForceSensorState.msg",
-        "@aima_protocol//aimdk/protocol/hal/sensors/msg:LivoxPoint.msg",
-        "@aima_protocol//aimdk/protocol/hal/sensors/msg:LivoxPointCloud.msg",
+        "@aimrt_protocol//aimdk/protocol/hal/sensors/msg:FootSensor.msg",
+        "@aimrt_protocol//aimdk/protocol/hal/sensors/msg:FootSensorState.msg",
+        "@aimrt_protocol//aimdk/protocol/hal/sensors/msg:ForceSensor.msg",
+        "@aimrt_protocol//aimdk/protocol/hal/sensors/msg:ForceSensorState.msg",
+        "@aimrt_protocol//aimdk/protocol/hal/sensors/msg:LivoxPoint.msg",
+        "@aimrt_protocol//aimdk/protocol/hal/sensors/msg:LivoxPointCloud.msg",
     ],
     type_support_name = "aimdk_protocol_sensors_msgs",
     deps = [

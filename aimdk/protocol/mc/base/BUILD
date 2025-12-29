@@ -7,7 +7,7 @@ protobuf_utils(
     dep_protos = [
         "//aimdk/protocol/common:rpc_proto",
     ],
-    proto = "@aima_protocol//aimdk/protocol/mc/base:jaka_ctrl.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/mc/base:jaka_ctrl.proto",
     type_support_name = "aimdk_protocol_jaka_ctrl",
 )
 
@@ -16,7 +16,7 @@ protobuf_utils(
     dep_protos = [
         ":mc_state_proto",
     ],
-    proto = "@aima_protocol//aimdk/protocol/mc/base:mc_base_channel.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/mc/base:mc_base_channel.proto",
     type_support_name = "aimdk_protocol_mc_base_channel",
 )
 
@@ -27,7 +27,7 @@ protobuf_utils(
         "//aimdk/protocol/common:rpc_proto",
         "//aimdk/protocol/mc/action:mc_action_proto",
     ],
-    proto = "@aima_protocol//aimdk/protocol/mc/base:mc_state.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/mc/base:mc_state.proto",
     type_support_name = "aimdk_protocol_mc_state",
 )
 
@@ -37,7 +37,7 @@ protobuf_utils(
         "//aimdk/protocol/common:control_source_proto",
         "//aimdk/protocol/common:rpc_proto",
     ],
-    proto = "@aima_protocol//aimdk/protocol/mc/base:work_mode.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/mc/base:work_mode.proto",
     type_support_name = "aimdk_protocol_work_mode",
 )
 
@@ -49,5 +49,5 @@ protobuf_utils(
         ":work_mode_proto",
     ],
     is_rpc = True,
-    proto = "@aima_protocol//aimdk/protocol/mc/base:mc_base_service.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/mc/base:mc_base_service.proto",
 )

@@ -9,7 +9,7 @@ protobuf_utils(
          ":process_health_proto",
         "//aimdk/protocol/common:timestamp_proto",
     ],
-    proto = "@aima_protocol//aimdk/protocol/hds/process:process_health_channel.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/hds/process:process_health_channel.proto",
     type_support_name = "aimdk_protocol_process_health_channel",
 )
 
@@ -18,7 +18,7 @@ protobuf_utils(
     name = "process_health_utils",
     dep_protos = [
     ],
-    proto = "@aima_protocol//aimdk/protocol/hds/process:process_health.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/hds/process:process_health.proto",
     type_support_name = "aimdk_protocol_process_health",
 )
 
@@ -28,7 +28,7 @@ protobuf_utils(
          ":process_heartbeat_proto",
         "//aimdk/protocol/common:timestamp_proto",
     ],
-    proto = "@aima_protocol//aimdk/protocol/hds/process:process_heartbeat_channel.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/hds/process:process_heartbeat_channel.proto",
     type_support_name = "aimdk_protocol_process_heartbeat_channel",
 )
 
@@ -36,6 +36,6 @@ protobuf_utils(
     name = "process_heartbeat_utils",
     dep_protos = [
     ],
-    proto = "@aima_protocol//aimdk/protocol/hds/process:process_heartbeat.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/hds/process:process_heartbeat.proto",
     type_support_name = "aimdk_protocol_process_heartbeat",
 )

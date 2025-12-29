@@ -6,7 +6,7 @@ protobuf_utils(
     name = "ball_utils",
     dep_protos = [
     ],
-    proto = "@aima_protocol//aimdk/protocol/demo:ball.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/demo:ball.proto",
     type_support_name = "aimdk_protocol_ball",
 )
 
@@ -16,7 +16,7 @@ protobuf_utils(
         ":ball_proto",
         "//aimdk/protocol/common:header_proto",
     ],
-    proto = "@aima_protocol//aimdk/protocol/demo:demo_channel.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/demo:demo_channel.proto",
     type_support_name = "aimdk_protocol_demo_channel",
 )
 
@@ -27,7 +27,7 @@ protobuf_utils(
         "//aimdk/protocol/common:header_proto",
     ],
     is_rpc = True,
-    proto = "@aima_protocol//aimdk/protocol/demo:demo_service.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/demo:demo_service.proto",
     type_support_name = "aimdk_protocol_demo_service",
 )
 

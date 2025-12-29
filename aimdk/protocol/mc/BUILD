@@ -15,5 +15,5 @@ protobuf_utils(
         "//aimdk/protocol/mc/tools:mc_tools_service_proto",
     ],
     is_rpc = True,
-    proto = "@aima_protocol//aimdk/protocol/mc:mc_service.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/mc:mc_service.proto",
 )

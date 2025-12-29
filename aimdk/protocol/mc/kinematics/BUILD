@@ -8,7 +8,7 @@ protobuf_utils(
         "//aimdk/protocol/common:se3_pose_proto",
         "//aimdk/protocol/common:se3_trajectory_proto",
     ],
-    proto = "@aima_protocol//aimdk/protocol/mc/kinematics:foot_kine.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/mc/kinematics:foot_kine.proto",
     type_support_name = "aimdk_protocol_foot_kine",
 )
 
@@ -19,7 +19,7 @@ protobuf_utils(
         "//aimdk/protocol/common:se3_pose_proto",
         "//aimdk/protocol/mc/common:arm_proto",
     ],
-    proto = "@aima_protocol//aimdk/protocol/mc/kinematics:kine_forward.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/mc/kinematics:kine_forward.proto",
     type_support_name = "aimdk_protocol_kine_forward",
 )
 
@@ -31,7 +31,7 @@ protobuf_utils(
         "//aimdk/protocol/mc/common:arm_proto",
         "//aimdk/protocol/mc/data:joint_proto",
     ],
-    proto = "@aima_protocol//aimdk/protocol/mc/kinematics:kine_inverse.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/mc/kinematics:kine_inverse.proto",
     type_support_name = "aimdk_protocol_kine_inverse",
 )
 
@@ -41,7 +41,7 @@ protobuf_utils(
         ":foot_kine_proto",
         "//aimdk/protocol/common:header_proto",
     ],
-    proto = "@aima_protocol//aimdk/protocol/mc/kinematics:mc_kinematics_channel.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/mc/kinematics:mc_kinematics_channel.proto",
     type_support_name = "aimdk_protocol_mc_kinematics_channel",
 )
 
@@ -52,5 +52,5 @@ protobuf_utils(
         ":kine_inverse_proto",
     ],
     is_rpc = True,
-    proto = "@aima_protocol//aimdk/protocol/mc/kinematics:mc_kinematics_service.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/mc/kinematics:mc_kinematics_service.proto",
 )

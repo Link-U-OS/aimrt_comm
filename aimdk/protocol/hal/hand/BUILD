@@ -7,7 +7,7 @@ protobuf_utils(
     dep_protos = [
     ],
     type_support_name = "aimdk_protocol_agi_claw",
-    proto = "@aima_protocol//aimdk/protocol/hal/hand:agi_claw.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/hal/hand:agi_claw.proto",
 )
 
 protobuf_utils(
@@ -15,7 +15,7 @@ protobuf_utils(
     dep_protos = [
     ],
     type_support_name = "aimdk_protocol_agi_hand",
-    proto = "@aima_protocol//aimdk/protocol/hal/hand:agi_hand.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/hal/hand:agi_hand.proto",
 )
 
 protobuf_utils(
@@ -25,7 +25,7 @@ protobuf_utils(
         "//aimdk/protocol/common:header_proto",
     ],
     type_support_name = "aimdk_protocol_hand_channel",
-    proto = "@aima_protocol//aimdk/protocol/hal/hand:hand_channel.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/hal/hand:hand_channel.proto",
 )
 
 protobuf_utils(
@@ -33,7 +33,7 @@ protobuf_utils(
     dep_protos = [
     ],
     type_support_name = "aimdk_protocol_inspire",
-    proto = "@aima_protocol//aimdk/protocol/hal/hand:inspire.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/hal/hand:inspire.proto",
 )
 
 protobuf_utils(
@@ -41,7 +41,7 @@ protobuf_utils(
     dep_protos = [
     ],
     type_support_name = "aimdk_protocol_jodell",
-    proto = "@aima_protocol//aimdk/protocol/hal/hand:jodell.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/hal/hand:jodell.proto",
 )
 
 protobuf_utils(
@@ -49,7 +49,7 @@ protobuf_utils(
     dep_protos = [
     ],
     type_support_name = "aimdk_protocol_agi_o10_hand",
-    proto = "@aima_protocol//aimdk/protocol/hal/hand:agi_o10_hand.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/hal/hand:agi_o10_hand.proto",
 )
 
 protobuf_utils(
@@ -59,7 +59,7 @@ protobuf_utils(
         "//aimdk/protocol/common:rpc_proto",
     ],
     is_rpc = True,
-    proto = "@aima_protocol//aimdk/protocol/hal/hand:hal_hand_service.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/hal/hand:hal_hand_service.proto",
 )
 
 protobuf_utils(
@@ -74,5 +74,5 @@ protobuf_utils(
         "//aimdk/protocol/common:rpc_proto",
     ],
     type_support_name = "aimdk_protocol_hand",
-    proto = "@aima_protocol//aimdk/protocol/hal/hand:hand.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/hal/hand:hand.proto",
 )

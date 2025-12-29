@@ -8,7 +8,7 @@ protobuf_utils(
         "//aimdk/protocol/common:rpc_proto",
         "//google/protobuf:any_proto",
     ],
-    proto = "@aima_protocol//aimdk/protocol/mc/force:mc_force_primitive.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/mc/force:mc_force_primitive.proto",
     type_support_name = "aimdk_protocol_mc_force_primitive",
 )
 
@@ -19,5 +19,5 @@ protobuf_utils(
         "//aimdk/protocol/common:rpc_proto",
     ],
     is_rpc = True,
-    proto = "@aima_protocol//aimdk/protocol/mc/force:mc_force_service.proto",
+    proto = "@aimrt_protocol//aimdk/protocol/mc/force:mc_force_service.proto",
 )

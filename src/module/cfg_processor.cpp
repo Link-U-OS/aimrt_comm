@@ -241,15 +241,6 @@ void Cfg::Processor::AddLogControlCfg()
   AddDefaultNet();
 }
 
-void Cfg::Processor::AddTraceCfg()
-{
-  if (not sys::config::EnableTrace())
-    return;
-
-  cfg_.aimrt_config_.rpc.AddFilter(cfg::Filter::otp_simple_trace);
-  cfg_[cfg::backend::Plugin::opentelemetry] = {};
-}
-
 void Cfg::Processor::AddDefaultNet()
 {
   bool need_http_backend = false;
@@ -451,7 +442,6 @@ void Cfg::Processor::InjectDefaultCfg()
   AddLogControlCfg();
   AddTraceEventCfg();
   AddMonitorCfg();
-  AddTraceCfg();
   AddVizCfg();
   AddDefaultLocal();
 

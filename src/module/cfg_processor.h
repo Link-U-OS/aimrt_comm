@@ -26,8 +26,6 @@ class Cfg::Processor
 
   void AddLogControlCfg();
 
-  void AddTraceCfg();
-
   void AddDefaultNet();
 
   void AddDefaultBackends();
